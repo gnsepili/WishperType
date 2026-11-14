@@ -1,0 +1,35 @@
+WhisperType for macOS
+
+INSTALL
+1. Quit any running copy of WhisperType using its menu-bar menu.
+2. Drag WhisperType.app onto the Applications shortcut in this disk image.
+3. Eject the WhisperType disk image.
+4. Open WhisperType from your Applications folder, not from this disk image.
+
+This app requires macOS 14 or later. The DMG filename identifies its architecture:
+arm64 is Apple Silicon; x86_64 is Intel; universal supports both.
+
+FIRST LAUNCH
+This is a locally ad-hoc-signed test build, not an Apple-notarized release.
+If macOS blocks it, first try opening it from Applications, then go to
+System Settings > Privacy & Security > Open Anyway and confirm if offered.
+Only approve a build you trust. Do not disable Gatekeeper system-wide.
+
+SETUP
+Add your own OpenAI API key in the setup screen. API usage is billed separately
+from a ChatGPT subscription. Your key is stored in macOS Keychain.
+
+Allow Microphone, Accessibility, and Input Monitoring when requested. Approve
+the installed Applications copy; old development-copy permission entries may
+need to be replaced. Restart WhisperType if macOS asks you to do so.
+
+TRY IT
+Open TextEdit and focus a document. Hold Control + Option, speak, then release.
+Use Control + Option + Space to toggle hands-free recording. Escape cancels.
+If insertion is unavailable, retrieve your result using Copy Last or History.
+
+PRIVACY
+Speech is processed by OpenAI in the cloud. There are no local speech models.
+Surrounding-text sharing and saved-audio retention are off by default.
+Local transcript history is enabled by default with 30-day retention.
+No API key, user history, or settings are included in this disk image.
